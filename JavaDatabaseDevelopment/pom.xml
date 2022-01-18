@@ -2,16 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>JavaLearning</artifactId>
+        <groupId>com.zhuweihao.JavaLearning</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.zhuweihao.JavaLearning</groupId>
-    <artifactId>JavaLearning</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>JavaGrammarFoundation</module>
-        <module>JavaDatabaseDevelopment</module>
-    </modules>
-    <packaging>pom</packaging>
+    <artifactId>JavaDatabaseDevelopment</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
